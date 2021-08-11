@@ -4,7 +4,7 @@ MAINTAINER Paul Ilea <paul.ilea90@gmail.com>
 
 # add file for https://github.com/pluswerk/grumphp-bom-task
 # @see FROM https://github.com/alpine-docker/git
-RUN apk --update add file bash rsync git openssh libxml2-dev patch imagemagick libpng-dev unzip npm && \
+RUN apk --update add file bash rsync git openssh libxml2-dev patch imagemagick libpng-dev unzip npm jq && \
     rm -rf /var/lib/apt/lists/* && \
     rm /var/cache/apk/*
 
