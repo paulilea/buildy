@@ -1,4 +1,4 @@
-ARG FROM=php:alpine
+ARG FROM=php:7.4-alpine
 FROM $FROM
 MAINTAINER Paul Ilea <paul.ilea90@gmail.com>
 
